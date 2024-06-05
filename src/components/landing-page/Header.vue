@@ -1,11 +1,13 @@
 <script setup lang="ts">
-    const name = "Caroline"; 
+    let paragraphText = ""; 
+    let person = { "name": "Caroline", "age": 30 }
 </script> 
 
 
 <template>
     <header>
-        <h1>{{ name }}</h1>
+        <h1>{{ person.name + " " + person.age }}</h1>
+        <p :id="paragraphText">Detta är en text</p>
     </header>
 </template>
 
