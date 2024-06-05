@@ -1,10 +1,13 @@
 
 <script setup lang="ts">
-  import Header from './components/landing-page/Header.vue';
+  import Header from './components/landing-page/Header.vue'; 
+  import Loader from './components/Loader.vue';
+  
 </script>
 
 <template>
-  <Header /> 
+  <Header />
+  <Loader />
 </template>
 
 <style scoped></style>
